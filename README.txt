@@ -32,6 +32,8 @@ This is a method to generate multiple metabolic engineering strategies given use
 	1. The concentration violations are computed through the use of slack variables through the function "debugAdditionOfConstraints_W.m" (called inside of runConcViolationStudies.m).
 
 	2. The alternative strategies are computed using integer cuts through the function "findDP_CONTROL_NEW.m" (called inside of findAltControlSchemes.m).
+	
+	3. The files Cpagg.mat and Cxagg.mat (statistics over the full set of flux and concentration CCs, respectively) are created through the function "concatenateCCs_PCA_Stats.m", when the option "runFirstTime" is set to 1. Similarly, the file CCforNRA_RXN_xxx.mat (the selected 19 sets of flux and concentration CCs for reaction xxx) is created through the function "fetchCCfromPCA.m", when the option "runFirstTimeOBJrxn" is set to 1.
 
 
 
