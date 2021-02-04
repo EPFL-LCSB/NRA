@@ -7,9 +7,9 @@ This is a method to generate multiple metabolic engineering strategies given use
 
 #### Requirements:
 
-- matTFA (https://github.com/EPFL-LCSB/matTFA)
-- IBM CPLEX Studio
-- Supplementary files (modeldata folder) - Zenodo address
+- matTFA, MATLAB toolbox for Thermodynamics-based Flux Balance Analyssis(TFA): avaliable at https://github.com/EPFL-LCSB/matTFA
+- IBM CPLEX Studio, optimization suite, free for academic research
+- Supplementary data files (users should place downloaded data in the "modeldata" subfolder): available at the Zenodo depository 10.5281/zenodo.4501189
 
 
 
@@ -35,6 +35,6 @@ This is a method to generate multiple metabolic engineering strategies given use
 
 
 
-S.Tsouka - Jan. 2021
+S.Tsouka et al. - Feb. 2021
 
 
